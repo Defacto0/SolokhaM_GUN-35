@@ -1,14 +1,14 @@
-﻿using System;
-using Unity.Cinemachine;
+﻿using Cinemachine;
+using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 namespace Tanks
 {
-	/// <summary>
-	/// Система патрулирования, основанная на расширении Cinemachine
-	/// </summary>
-	[RequireComponent(typeof(CinemachinePath))]
+    /// <summary>
+    /// Система патрулирования, основанная на расширении Cinemachine
+    /// </summary>
+    [RequireComponent(typeof(CinemachinePath))]
 	public class Patrol : MonoBehaviour
 	{
 		//Рандомно выставленная скорость патрулирования

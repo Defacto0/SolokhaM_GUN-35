@@ -1,14 +1,14 @@
-using Unity.Cinemachine;
+using Cinemachine;
 using Tanks.Interface;
 using UnityEngine;
 using Zenject;
 
 namespace Tanks
 {
-	/// <summary>
-	/// Установщик для предподготовки зависимостей
-	/// </summary>
-	public class TankGameInstaller : MonoInstaller
+    /// <summary>
+    /// Установщик для предподготовки зависимостей
+    /// </summary>
+    public class TankGameInstaller : MonoInstaller
 	{
 		private TankControls _controls;
 

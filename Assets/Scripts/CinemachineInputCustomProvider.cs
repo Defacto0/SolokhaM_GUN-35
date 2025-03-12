@@ -1,14 +1,14 @@
-﻿using Unity.Cinemachine;
+﻿using Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace Tanks
 {
-	/// <summary>
-	/// Кастомный провайдер для работы Cinemachine с новой системой ввода
-	/// </summary>
-	/// <remarks>Пример для студентов, если потребуется открепить камеру от танка и управлять через новую систему ввода</remarks>
-	public class CinemachineInputCustomProvider : MonoBehaviour, AxisState.IInputAxisProvider
+    /// <summary>
+    /// Кастомный провайдер для работы Cinemachine с новой системой ввода
+    /// </summary>
+    /// <remarks>Пример для студентов, если потребуется открепить камеру от танка и управлять через новую систему ввода</remarks>
+    public class CinemachineInputCustomProvider : MonoBehaviour, AxisState.IInputAxisProvider
 	{
 		private float _x;
 		private float _y;

@@ -1,5 +1,5 @@
-﻿using System;
-using Unity.Cinemachine;
+﻿using Cinemachine;
+using System;
 using UnityEngine;
 using Zenject;
 
@@ -142,7 +142,7 @@ namespace Tanks
         //чем выше скорость, тем сильнее прижатие
         private void AddDownForce()
         {
-            var value = -transform.up * (_downforce * _body.linearVelocity.magnitude);
+            var value = -transform.up * (_downforce * _body.velocity.magnitude);
             _body.AddForce(value);
         }
 

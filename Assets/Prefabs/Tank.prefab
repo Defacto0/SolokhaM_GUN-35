@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7321460542650435880}
   - component: {fileID: 1813924284557031731}
   - component: {fileID: 807136037302367028}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TankFree_Wheel_b_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60,9 +60,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -137,7 +134,7 @@ GameObject:
   - component: {fileID: 5556489572502306175}
   - component: {fileID: 1508508051026194236}
   - component: {fileID: 6043927102753217067}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TankFree_Wheel_f_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,9 +181,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -257,7 +251,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5646350077052465870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,7 +285,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1379277706867070202}
   - component: {fileID: 2204258270794505098}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: B_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -364,7 +358,7 @@ GameObject:
   - component: {fileID: 7704508873690892757}
   - component: {fileID: 4626665181531986442}
   - component: {fileID: 1904897420551951077}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -502,7 +496,7 @@ GameObject:
   - component: {fileID: 3027151462206648510}
   - component: {fileID: 6749176315927541436}
   - component: {fileID: 8879654819643602074}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TankFree_Wheel_f_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -549,9 +543,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -626,7 +617,7 @@ GameObject:
   - component: {fileID: 4864806964843430055}
   - component: {fileID: 1053943721080019447}
   - component: {fileID: 3297164191689105339}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TankFree_Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -674,9 +665,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -763,7 +751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5550887246043649194}
   - component: {fileID: 4416321439459966188}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: F_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -834,7 +822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1920570219197671252}
   - component: {fileID: 3476310767390253037}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: F_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -911,7 +899,7 @@ GameObject:
   - component: {fileID: 1318194111953926085}
   - component: {fileID: 512757310655920439}
   - component: {fileID: 7418872650282490394}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -965,9 +953,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1094,7 +1079,6 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 03bf91d88fce91c41995d27de63cc967, type: 3}
-  m_Resource: {fileID: 8300000, guid: 03bf91d88fce91c41995d27de63cc967, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1189,7 +1173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2305300057314718886}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wheels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1228,7 +1212,7 @@ GameObject:
   - component: {fileID: 2966164926253052235}
   - component: {fileID: 3808058186023101334}
   - component: {fileID: 7194799250098977173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TankFree_Wheel_b_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1275,9 +1259,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1350,7 +1331,7 @@ GameObject:
   - component: {fileID: 8337103972667226030}
   - component: {fileID: 1227993635608942224}
   - component: {fileID: 9046675700539934982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TankFree_Canon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1398,9 +1379,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1436,7 +1414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5225979231004421790}
   - component: {fileID: 8677148876181314879}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: B_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1509,6 +1487,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuzzleFlash01
       objectReference: {fileID: 0}
+    - target: {fileID: 1743301284569550, guid: 0f5d80b13ed22d14b91a12eb2cfa86e6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992675705445476, guid: 0f5d80b13ed22d14b91a12eb2cfa86e6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4300533007854612, guid: 0f5d80b13ed22d14b91a12eb2cfa86e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1575,6 +1561,10 @@ PrefabInstance:
     - target: {fileID: 1273915125232972, guid: 01757334d0222ed4881ce8922d96bd92, type: 3}
       propertyPath: m_Name
       value: SmokeEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273915125232972, guid: 01757334d0222ed4881ce8922d96bd92, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4508696319873668, guid: 01757334d0222ed4881ce8922d96bd92, type: 3}
       propertyPath: m_LocalPosition.x
